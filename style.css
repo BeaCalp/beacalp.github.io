@@ -14,10 +14,11 @@ body {
    border-radius: 50%;
  }
    
- <style>
+ 
   #box-container {
     height: 500px;
-
+    flex-direction: row;
+    display:flex;
   }
 
   #box-1 {
@@ -27,7 +28,7 @@ body {
   }
 
   #box-2 {
-    background-color: dodgerblue;
+    background-color: rgb(150, 255, 30);
     width: 50%;
     height: 50%;
   }
@@ -36,9 +37,3 @@ body {
     width: 50%;
     height: 50%;
   }
-</style>
-<div id="box-container">
-  <div id="box-1"></div>
-  <div id="box-2"></div>
-  <div id="box-3"></div>
-</div>
