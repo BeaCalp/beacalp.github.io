@@ -9,27 +9,32 @@
   </head>
   <body>
    <h1>Beatriz Mirete Soriano</h1>
-      
-       <img src="/images/webImg.jpg" class="rounded" width= "250" height="250"  />
-       <img src="/images/SalinasCalp.jpg" class="rounded" width= "250" 
-       height="250" />
-       <img src="/images/Islington.jpg" class="rounded" width= "250" 
-       height="250" />
-       <img src="/images/StikPast2.jpg" class="rounded"  width= "250" 
-       height="250" />
-       <img src="/images/StikPresent.jpg" class="rounded"  width= "250" 
-       height="250" />
-       <img src="/images/StikFuture.jpg" class="rounded"  width= "250" 
-       height="250" />
+      <section id"carousel-container">
+
+      <img src="/images/SalinasCalp.JPG" width= "250" height= "250"class="carousel-image polaroid container hidden"/>
+
+      <img src="/images/Islington.JPG" width= "250" height= "250" class="carousel-image polaroid container hidden "/>
+
+      <img src="/images/Bea2.jpg" width= "250" height= "250" class="carousel-image polaroid container visible "/>
+
+      </section>
+
+       
    
      <a href="https://uk.linkedin.com/in/beatriz-mirete-soriano-240553177"> <h4>About me</h4> </a> 
      <img src="/images/linkedin.jpg"   width= "40" 
        height="40" />
     <div id="box-container">
-  <div id="box-1"><p> Welcome </p></div>
-  <div id="box-2"><p> Present </p></div>
-  <div id="box-3"><p> Past </p></div>
-</div>
+  <div id="box-1">
+    <button onclick="myFunction()"><h1>Past</h1></button>
+    <p id= "pastText" </p></div>
+  <div id="box-2">
+    <button onclick="myFunction1()"><h1>Present</h1></button>
+    <p id= "presentText" </p></div>
+  <div id="box-3">
+    <button onclick="myFunction2()"><h1>Future</h1></button>
+    <p id= "futureText" </p></div>
+  
     <script src="script.js"></script>
     
   </body>
